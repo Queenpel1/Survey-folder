@@ -7,8 +7,8 @@
   </head>
   <body>
     <header><h1>Study Habits Survey</h1></header>
-<p>We are conducting a short survey to understand the study patterns of students. Your responses will be of great help</p>
- <form method="post" action="#">
+<p>We are conducting a short survey to understand the study patterns of students.<p> Your responses will be of great help.</p></p>
+ <form method="post" action="https://formspree.io/f/mwpbjvyn">
       
     
         <div class="row">
@@ -31,15 +31,16 @@
       </label>
       <legend>When do you prefer studying? :</legend>
       <div class="radio-group"
-      <label for="time">Morning<input id="time" type="radio" name="time" checked></label>
-      <label for="time">Night<input id="time" type="radio" name="time"></label>
+      <label for="time">Morning<input id="time" type="radio" name="time" value="Morning"checked></label>
+      <label for="time">Night<input id="time" type="radio" name="time" value="Night"></label>
       </div>
       <legend>What is your favourite study method?(required)</legend>
-      <label for="study-method"><input id="study-method" type="checkbox" name="study-method">Reading</label>
-      <label for="study-method"><input id="study-method" type="checkbox" name="study-method">Group Study</label>
-<label for="study-method"><input id="study-method" type="checkbox" name="study-method">Videos</label>
-<label for="study-method"><input id="study-method" type="checkbox" name="study-method">Practice past questions</label>
+      <label for="study-method"><input id="study-method" type="checkbox" name="study-method" value="Reading">Reading</label>
+      <label for="study-method"><input id="study-method" type="checkbox" name="study-method" value="Group Study">Group Study</label>
+<label for="study-method"><input id="study-method" type="checkbox" name="study-method" value="Videos">Videos</label>
+<label for="study-method"><input id="study-method" type="checkbox" name="study-method" value="Practice past questions">Practice past questions</label>
 <label for="sleep-time">How many hours of sleep do you get daily?<input id="sleep-time" name="sleep-time" type="number" placeholder="e.g 1"></label>
+<label for="current cgpa">What is your current cgpa? <input id="current cgpa" name="current cgpa" type="number"></label>
 <label for="advice">Any suggestions to improve your study habits?<textarea id="advice" name="advice"  placeholder="I should probably sleep less, lol...." rows="3" cols="30"></textarea></label>
 
 <input type="submit" value="Submit">
