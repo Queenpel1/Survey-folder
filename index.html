@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header><h1>Study Habits Survey</h1></header>
+<p>We are conducting a short survey to understand the study patterns of students. Your responses will be of great help</p>
+ <form method="post" action="#">
+      
+    
+        <div class="row">
+        <label for="age"> Age:
+          <input id="age" type="number" min="16" required>
+        </label>
+        <label for="course">Course:
+        <input id="course" name="course" type="text" placeholder="e.g pharmacy"></label>
+        <label for="level"> Level: <select id="level" name="level">
+            <option value="">(select one)</option>
+           <option value="1">100</option>
+           <option value"2">200</option>
+           <option value="3">300</option>
+           <option value="4">400</option>
+           <option value="4">500</option>
+           <option value|"5">600</option>
+           </select>
+        </label>
+      <label for="hours">How many hours do you study in a day?<input id="hours" type="number" name="hours" placeholder="e.g 1"> 
+      </label>
+      <legend>When do you prefer studying? :</legend>
+      <div class="radio-group"
+      <label for="time">Morning<input id="time" type="radio" name="time" checked></label>
+      <label for="time">Night<input id="time" type="radio" name="time"></label>
+      </div>
+      <legend>What is your favourite study method?(required)</legend>
+      <label for="study-method"><input id="study-method" type="checkbox" name="study-method">Reading</label>
+      <label for="study-method"><input id="study-method" type="checkbox" name="study-method">Group Study</label>
+<label for="study-method"><input id="study-method" type="checkbox" name="study-method">Videos</label>
+<label for="study-method"><input id="study-method" type="checkbox" name="study-method">Practice past questions</label>
+<label for="sleep-time">How many hours of sleep do you get daily?<input id="sleep-time" name="sleep-time" type="number" placeholder="e.g 1"></label>
+<label for="advice">Any suggestions to improve your study habits?<textarea id="advice" name="advice"  placeholder="I should probably sleep less, lol...." rows="3" cols="30"></textarea></label>
+
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
